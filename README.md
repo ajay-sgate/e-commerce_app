@@ -1,2 +1,2 @@
-# movie_app
-movie_app
+# e-commerce_app
+e-commerce_app
