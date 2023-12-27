@@ -17,7 +17,7 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = ['Cart', 'About', 'Contact'];
 
 function Navbar(props) {
     const { window } = props;
@@ -29,13 +29,13 @@ function Navbar(props) {
 
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-            <Link to='/'>
+            <Link to='/' >
                 <Typography variant="h6" sx={{ my: 2 }}>
                     MUI
                 </Typography>
             </Link>
             <Divider />
-            <List>
+            {/* <List>
                 {navItems.map((item) => (
                     <ListItem key={item} disablePadding>
                         <ListItemButton sx={{ textAlign: 'center' }}>
@@ -43,7 +43,7 @@ function Navbar(props) {
                         </ListItemButton>
                     </ListItem>
                 ))}
-            </List>
+            </List> */}
         </Box>
     );
 
