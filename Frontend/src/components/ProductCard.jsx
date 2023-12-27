@@ -10,7 +10,6 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import { Link } from 'react-router-dom';
 
 const ProductCard = ({ data }) => {
-    // console.log(data);
 
     return (
         <Card sx={{
